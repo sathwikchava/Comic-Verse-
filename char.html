@@ -1,0 +1,1146 @@
+<html>
+<head>
+    <title>ComicVerse</title>
+    <link rel="stylesheet" href="char.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png"
+        href="https://res.cloudinary.com/de27xvxon/image/upload/v1715758978/OIP_tzwkgk.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <input type="checkbox" name="" id="chk1">
+            <div class="logo">
+                <h3>Comic<span>Verse</span></h3>
+            </div>
+            <div class="search-box">
+                <form>
+                    <input type="text" name="search" id="srch" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="home.html" class="nav_items">Home</a></li>
+                <li><a href="movies.html" class="nav_items">Movies</a></li>
+                <li><a href="char.html" class="nav_items">Characters</a></li>
+                <li><a href="store.html" class="nav_items">Store</a></li>
+                <li>
+                    <a href="cart.html">
+                        <div class="cart">
+                            <div id="cart_amount" class="nav_items">0</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="search symbol">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+        </header>
+    </div>
+    <p id="top"></p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class=img1><img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718551546/medium-the-marvel-avengers-wall-poster-for-room-with-gloss-original-imafscn3ypsf4snf_d8zr5r.webp" style="height: 300px; width:740px"></div>
+        </div>
+
+    </div>
+
+    <div class="mySlides fade">
+        <div class=img1><img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718551706/the-best-dc-comics-heroes-u1_dqzlrl.jpg" style="height: 300px; width:740px"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class=img1><img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718551745/pheature-Cropped_td5i8a.avif" style="height: 300px; width:740px"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class=img1><img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718551785/IMG_5954_cj1mso.webp" style="height: 300px; width:740px"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class=img1><img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718551828/eae9ac3dd71c92278e8f4a3ec4bfa6bf_zafrsb.jpg" style="height: 300px; width:740px"></div>
+    </div>
+
+    </div>
+    <br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <div style="text-align:left">
+        <p></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div><br>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <br><br><br><br><br>
+
+    <h1 style="color:  rgb(218, 35, 35);">Marvel Comic Characters</h1><br><br>
+    <br>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="main1">
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539525/captionamerica_wdqrft.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Captain<br> America
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539597/spiderman2_ir2rse.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Spiderman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539670/hulk2_m6o7u1.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Hulk</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539710/thor_i6rg9n.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Thor</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539763/thanos_lam40n.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Thanos</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539793/hakue_uqr4ct.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Hawkeye</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539829/ironman_dd0ocw.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Ironman</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539871/blackpanther1_l68c3r.webp" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Black Panther</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718539902/sarletwitch_qbe5f9.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Scarlet Witch</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540065/wintersolder_c4ucne.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Winter<br>Solider
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540092/ultron_kyn8zg.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Ultron</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540113/antman_fj1my4.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Antman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540131/starlord_jlmhsz.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Starlord</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540150/drstrange_rfwjlq.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Dr.Strange</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span>
+                    <div class="main">
+                        <div class="container">
+                            <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540181/loki_xubnv1.jpg" alt="Avatar" class="img">
+                            <div class="overlay">
+                                <div class="text"> <br><br>
+                                    <br<p>Loki</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+    <h1 style="color: rgb(218, 35, 35);">DC Comic Characters</h1><br><br>
+    <br>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="main1">
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540433/batman_d43biz.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Batman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540467/superman_cyiiyd.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Superman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540493/joker_kfelds.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Joker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540539/flash_gd9ny1.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Flash</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540572/balckadam_yetlgh.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>BlackAdam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540594/aquaman_buj8ji.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Aquaman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540619/wonderwomen_mhzcgt.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Wonder<br>Women
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540641/greenlantern_asql1e.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Green Lantern</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540665/darksied_cspqdl.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Darkseid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540688/antimonitor_wepfsr.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Anti Moniter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540710/cyborg_mzafr2.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Cyborg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540733/dr.fate_wbsy1i.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Dr.Fate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540755/HarleyQuinn_lf1mhe.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Harley Quinn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540796/peascemaker_zvvthm.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Peace Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540821/bluebetle_wjb94j.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Blue Beetle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+
+
+    <h1 style="color: rgb(218, 35, 35);">Dark Horse Comic Characters</h1><br><br>
+    <br>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="main1">
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718540884/hellboy_z0dhdj.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Hellboy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544571/dr.giggles_iwowu7.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Dr.Giggles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544551/goon_wnbasg.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>The Goon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544524/abesapian_hvumo3.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Abe Sapien</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544474/themoth_ehggjz.webp" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>The Moth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544425/Johannkraus_wsfti2.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Johann Kraus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544402/babayaga_atvj6m.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Baba yaga</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544380/Rasputin_mui9ed.png" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Rasputin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718544356/elizabethsherman_qpgs1h.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Elizabeth<br> Sherman
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541132/themask_sxxns5.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>The Mask</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541107/captionmidnight_m6h4xr.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Captain<br> Midnight
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541076/Katecorrigan_ari0gf.webp" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Kate Corrigan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541049/astonishman_ihfbz2.jpg" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Astonishman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541026/Blur_Girl_g7vv8o.webp" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Blur Girl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718541001/Ben_Daimio_i92jao.webp" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Ben Daimio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+    <h1 style="color:rgb(218, 35, 35);">Archie Comic Characters</h1><br><br>
+    <br>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="main1">
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718546043/Archieandrew_qvv3gu.png" class="img" style="background-color: cyan;">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Archie<br> Andrews
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718546014/BettyCooper_qpzqab.png" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Betty Cooper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545979/Veronicalodge_jwjyhi.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Veronica<br> Lodge
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545944/jugheadjonas1_kiu1dn.png" alt="Avatar" class="img" style="background-color: yellow;">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Jughead<br> Jonas
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545898/ReggieMantle_w6jjw6.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Reggie Mantle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545873/moose_mason_uixa1r.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Moose Mason</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545845/Diltondoiley_ztihyz.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Dilton doiley</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545822/Midge_Klump_x17b29.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Midge Klump</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545786/Chuckclayton_tvrx2x.webp" alt="Avatar" class="img" style="background-color: aqua;">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Chuck Clayton</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545750/Ethelmuggs_n1utse.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Ethel Muggs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545723/Hiramlodge_e0jl2w.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Hiram Lodge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545659/weatherbee_ylnb8u.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Weatherbee</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545634/missGrundy_qiqk4b.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Miss Grundy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545597/Pop_Tate_q2borz.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Pop Tate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545572/kevinkeller_maks9e.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Kevin Keller</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+             
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+    <h1 style="color: rgb(218, 35, 35);">Disney Comic Characters</h1><br><br>
+    <br>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="main1">
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545429/mickymouse_kfqotv.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Micky Mouse</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545459/donaldduck_tniig8.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Donald Duck</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545495/Scrooge_McDuc_lovki2.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>McDuck</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545518/Goofy_icoyga.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Goofy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545399/minnemouse_trhsab.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Minnie Mouse</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545369/BuckyBug_fmfp5s.webp" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br<p>Buck Bug</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <div class="main">
+                    <div class="container">
+                        <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545341/glandstonegaden_fgl5gt.jpg" alt="Avatar" class="img">
+                        <div class="overlay">
+                            <div class="text"> <br><br>
+                                <br>
+                                <pre>GladStone<br>Garden
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545301/josecaronica_iagsoe.jpg" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>José Carioca</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545271/ludwig-von-drake_oaq0pl.jpg" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            Ludwig Von
+                            <br>Drake
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545248/scamp_jnrmep.png" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Scamp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545181/grandmaduck_f6b00j.webp" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Grandma<br>Duck
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545157/horacehorsecollor_d0z3ti.png" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Horace<br>
+                                Horsecollar
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545135/pete_khoave.jpg" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Pete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545097/gyrogearlose_tukrud.jpg" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Gyro<br> Gearloose
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="main">
+                <div class="container">
+                    <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1718545034/Hueyduck_ewsqw3.webp" alt="Avatar" class="img">
+                    <div class="overlay">
+                        <div class="text"> <br><br>
+                            <br<p>Huey Duck</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        </div>
+    </div>
+    <svg height="60px" width="200px" style="cursor: pointer;" >
+        <a href="#top"><text x="80px" y="35px" font-size="40px">⏫</text></a>
+    </svg>
+      <div>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Comic<span>Verse</span></h3>
+
+                <p class="footer-links">
+                    <a href="home.html">Home</a>
+                    |
+                    <a href="movies.html">Movies</a>
+                    |
+                    <a href="char.html">Characters</a>
+                    |
+                    <a href="store.html">Store</a>
+                    |
+                    <a href="cart.html">🛒</a>
+                </p>
+
+                <p class="footer-company-name">Copyright © 2024 <strong>ComicVerse</strong><br> <br>All rights reserved</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Amrita Vishwa Vidhyapeetham</span>
+                        Amaravati Campus</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91  88888 99999</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:comicverse@gmail.com">comicverse@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    <strong>Comic Verse</strong> "Explore our comic universe online! Discover captivating stories, thrilling adventures, and hilarious characters. Join our community for a world of entertainment!"
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/home?lang=en"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>  
+    
+</body>
+
+</html>
